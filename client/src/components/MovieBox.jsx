@@ -19,6 +19,7 @@ var MovieBox = React.createClass({
         <div className="moviebox">
           <h1>Upcoming Movies</h1>
           <MovieList data={this.state.data} />
+          <button>Get showtimes</button>
         </div>
       )
   }
