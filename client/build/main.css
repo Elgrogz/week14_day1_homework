@@ -1,5 +1,6 @@
 body{
   font-family: Verdana;
+  color: DodgerBlue;
 }
 
 .moviebox{
@@ -9,6 +10,15 @@ body{
   width: 400px;
   font-size: 20px;
   text-align: center;
+  background-color: #F0F0F0;
+}
+
+#movie-title {
+  text-align: left;
+}
+
+#movie-title {
+  text-align: right;
 }
 
 button{
@@ -16,11 +26,11 @@ button{
   width: 150px;
   border-radius: 10px;
   font-size: 20px;
-  background-color: tomato;
+  background-color: DodgerBlue;
 }
 
 button:hover{
-  background-color: mediumaquamarine;
+  background-color: blue;
 }
 
 .comment{
